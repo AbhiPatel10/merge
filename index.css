@@ -263,6 +263,9 @@
   #nav-toggle.active span:before {
     transform: rotate(45deg);
   }
+  #more-sites{
+    display:none;
+  }
   
   @media only screen and (max-width: 990px) {
     .nav-mobile {
@@ -299,6 +302,13 @@
   .navbar ul li a:visited{
     line-height:40px;
   }
+  .navbar-upper{
+    display: none;
+  }
+  #more-sites{
+    display:block;
+  }
+ 
 }
 
 @media screen and (min-width: 1280px) {
@@ -473,12 +483,7 @@
     padding:0px 15px;
   }
 }
-/* @media only screen and (max-width: 989px) and (min-width:705){
-  .logo-container img{
-    width:4500px;
-    
-  }
-  .logo-container{
-    top:13px;
-  }
-} */
+
+
+/* display hides */
+
